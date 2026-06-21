@@ -342,3 +342,16 @@ button:hover{
     grid-template-columns:repeat(3,1fr);
   }
 }
+
+.card a{
+  display: inline-block;
+  margin: 10px 0;
+  color: #38bdf8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card a:hover{
+  color: #7dd3fc;
+  text-decoration: underline;
+}
